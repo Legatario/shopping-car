@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import Products from './components/Produucts/Prodectjs';
+import Products from './components/Products/Prodectjs';
 
 function App() {
   return (

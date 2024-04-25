@@ -7,7 +7,7 @@ import CartButton from '../CartButton/CardButton';
 function Header (){
   return(
     <header className="header">
-      <div className="container" style={{maxWidth: '800px', margin: '0 auto'}}>
+      <div className="container">
         <SearchBar />
         <CartButton />
       </div>
