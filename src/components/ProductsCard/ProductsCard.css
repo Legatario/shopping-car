@@ -75,13 +75,16 @@
   background-color: #0F52BA;
   border: 2px solid transparent;
   border-radius: 0px 0px 8px 8px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
 }
 
 .button__add-cart > span{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 
