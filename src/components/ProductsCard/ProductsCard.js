@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductsCard.css';
+import { PiHandbagBold } from 'react-icons/pi';
 
 function ProductsCard(){
   return(
@@ -12,7 +13,12 @@ function ProductsCard(){
         </div>
         <p className="card__description">asasas asasas asasoo asasas aspasoapsopasoa aa</p>
       </div>
-      <button type="button" className="button__add-cart">Comprar</button>
+      <button type="button" className="button__add-cart">
+        <span> 
+          <PiHandbagBold />
+        </span> 
+        Comprar
+      </button>
     </section>
   );
 }

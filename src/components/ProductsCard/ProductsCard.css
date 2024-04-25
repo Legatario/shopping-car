@@ -12,6 +12,8 @@
   /* grid-template-rows: auto 1fr auto; */
   grid-gap: 12px;
   font-family: Montserrat;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.13);
 }
 
 .card__image {
@@ -64,6 +66,23 @@
   padding-left: 14px;
 }
 
+.button__add-cart{
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #0F52BA;
+  border: 2px solid transparent;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.button__add-cart > span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
 
 
 
