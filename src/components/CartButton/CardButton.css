@@ -1,0 +1,21 @@
+.cart__button{
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  color: #333;
+  width: 100%;
+  max-width: 90px;
+  max-height: 45px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+.cart__status{
+  font-family: 'Montserrat';
+}
