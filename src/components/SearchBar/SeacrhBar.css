@@ -1,6 +1,7 @@
+
 .search-bar{
   display:  flex;
-  background-color: white;
+  background: #febd69;
   width: 100%;
   max-width: 500px;
   justify-content: space-between;
@@ -10,6 +11,7 @@
 }
 
 .search__input{
+  background-color: white;
   padding:  13px;
   flex-grow: 1;
   border: none;
@@ -20,7 +22,7 @@
 }
 
 .search__button{
-  background: none;
+  background: #febd69;
   border: none;
   font-size: 1rem;
   display: flex;
