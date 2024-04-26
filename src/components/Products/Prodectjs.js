@@ -19,7 +19,11 @@ function Products(){
 
   return(
     <section className="products container">
-      <ProductsCard data={{}}/>
+      {
+        products.map((product) =>
+          <ProductsCard key={product.id} data={{product}} />
+        )
+      }
     </section>
   );
 }
