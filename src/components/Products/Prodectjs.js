@@ -19,7 +19,7 @@ function Products(){
 
   return(
     <section className="products container">
-      <ProductsCard />
+      <ProductsCard data={{}}/>
     </section>
   );
 }
