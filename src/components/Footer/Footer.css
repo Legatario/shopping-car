@@ -6,12 +6,5 @@ footer{
   justify-content: center;
   align-items: center;
   min-height: 40px;
-  position: absolute;
-  bottom: 0;
-}
-
-@media screen and (max-width: 960px) {
-  footer{
-    position: static;
-  }
+  margin-top: auto;
 }

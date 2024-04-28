@@ -11,6 +11,12 @@ body {
   background-color: #fff;
 }
 
+.body__container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .container{
   max-width: 1100px;
   margin: 0 auto;
